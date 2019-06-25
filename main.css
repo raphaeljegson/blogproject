@@ -1,0 +1,42 @@
+body {
+ background-image: url("new.png");
+}
+.large {
+    font-size: 90px;
+}
+#medium {
+    font-size: 50px;
+}
+#semi {
+    font-size: 40px;
+}
+#large {
+    text-align: center;
+}
+.large {
+    color: red
+}
+ 
+h2 {
+    color:blue;
+}
+h3 {
+    color: green;
+}
+h4,h5 {
+    color:purple
+}
+.large {
+    font-size: 90px;
+    text-align: center;
+}
+img {
+    height: 200px;
+    width: 100px;
+}
+
+.link{
+    color: blue;
+}
+  
+
