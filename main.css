@@ -5,8 +5,8 @@ body {
     font-size: 90px;
 }
 .toolbar{
-    font-size: 30px;
-    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 #medium {
     font-size: 50px;
@@ -34,8 +34,32 @@ h4,h5 {
 }
 img {
     height: 300px;
-    width: 300px;
+    width: 200px;
+}
+.container {
+    display: flex;
+}
+* {
+    box-sizing: border-box;
+}
+.toolbar {
+    color:white;
+    font-size: 70px;
+    text-align: center;
+    padding:20px;
+    flex: 1;
+}
+.box1 {
+    background: blueviolet;
 }
 
-  
+.box2 {
+    background: yellowgreen;
+}
 
+.box3 {
+    background: beige;
+}
+.toolbar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
