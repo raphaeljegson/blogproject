@@ -4,19 +4,21 @@ body {
 .large {
     font-size: 90px;
 }
+.toolbar{
+    font-size: 30px;
+    text-align: center;
+}
 #medium {
     font-size: 50px;
 }
-#semi {
-    font-size: 40px;
-}
+
 #large {
     text-align: center;
 }
 .large {
     color: red
 }
- 
+
 h2 {
     color:blue;
 }
@@ -31,12 +33,9 @@ h4,h5 {
     text-align: center;
 }
 img {
-    height: 200px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
 }
 
-.link{
-    color: blue;
-}
   
 
