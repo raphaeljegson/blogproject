@@ -43,7 +43,7 @@ img {
     box-sizing: border-box;
 }
 .toolbar {
-    color:white;
+    color: grey;
     font-size: 70px;
     text-align: center;
     padding:20px;
@@ -60,6 +60,13 @@ img {
 .box3 {
     background: beige;
 }
+.box4 {
+    background: grey
+}
 .toolbar {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+.toolbar .container{
+    background-size: 60px
+}
+
