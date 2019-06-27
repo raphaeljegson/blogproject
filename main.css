@@ -6,12 +6,20 @@ body {
 }
 .toolbar{
     font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-#medium {
-    font-size: 50px;
+p {
+    font-size: 20px;
+    color: black
+}
+.container {
+    position: center;
+    text-align: center;
+    color: black;
 }
 
+div {
+    font-size: 20px;
+}
 #large {
     text-align: center;
 }
@@ -36,17 +44,19 @@ img {
     height: 300px;
     width: 200px;
 }
+ 
 .container {
     display: flex;
 }
+
 * {
     box-sizing: border-box;
 }
 .toolbar {
-    color: grey;
+    color: whitesmoke;         
     font-size: 70px;
     text-align: center;
-    padding:20px;
+    padding:30px;
     flex: 1;
 }
 .box1 {
@@ -66,7 +76,7 @@ img {
 .toolbar {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-.toolbar .container{
-    background-size: 60px
+.toobar {
+    border-inline-color: green;
 }
 
