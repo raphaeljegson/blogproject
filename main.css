@@ -63,15 +63,16 @@ img {
 .box1 {
     background: blueviolet;
 }
-
 .box2 {
     background: yellowgreen;
 }
-
 .box3 {
     background: beige;
 }
 .box4 {
+    background: grey
+}
+.box5 {
     background: grey
 }
 .toolbar {
@@ -84,9 +85,8 @@ img {
     width: 100%
 }
 img {
-    height: auto
+    height: 50%
 }
-
 .boxed {
     width: 100%;
     border: 15px solid green;
@@ -98,7 +98,4 @@ img {
   }
 .para {
     font-size: 30px
-}
-.apps {
-    height: 50px;
 }
