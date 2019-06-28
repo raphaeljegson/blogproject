@@ -84,9 +84,7 @@ img {
 img {
     width: 100%
 }
-img {
-    height: auto
-}
+
 .boxed {
     width: 100%;
     border: 15px solid green;
