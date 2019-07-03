@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
 * {
     box-sizing: border-box;
+    padding: 10px;
+    margin: 0px;
 }
 
 body {
  background-image: url("new.png");
 }
-.large {
-    font-size: 70px;
+.large, h1 {
+    font-size: 60px;
     color: red;
     text-align: center;
 }
@@ -14,26 +17,17 @@ body {
     font-size: 30px;
     color: whitesmoke;  
     text-align: center;
-    padding:10px;
     flex: 1;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'DM Serif Display', serif;
 }
 .container {
     position: center;
     text-align: center;
     color: black;
 }
-p {
+p, ul, li {
     font-size: 25px;
     color: black
-}
-
-
-div {
-    font-size: 25px;
-}
-#large {
-    text-align: center;
 }
 
 h2 {
@@ -42,10 +36,7 @@ h2 {
 }
 h3 {
     color: green;
-    font-size: 35px;
-}
-h4,h5 {
-    color:purple;
+    font-size: 30px;
 }
  
 .container {
@@ -65,20 +56,23 @@ h4,h5 {
     background: grey;
 }
 .box5 {
-    background: grey;
+    background: orangered;
+}
+.box6 {
+    background: whitesmoke;
 }
 
 img {
-    width: 30%;
-    height: 30%;
+    width: 35%;
+    height: 35%;
 }
 
 .boxed {
     width: 100%;
-    height:auto ;
+    height: auto ;
     border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
 }
 .para {
     font-size: 30px;
